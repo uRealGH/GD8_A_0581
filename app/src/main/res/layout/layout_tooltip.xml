@@ -38,7 +38,7 @@
                     android:backgroundTint="@color/white"
                     android:padding="10dp"
                     android:src="@drawable/ic_baseline_location_on_24"
-                    android:tint="@android:color/holo_blue_light" />
+                    app:tint="@android:color/holo_blue_light" />
 
                 <TextView
                     android:id="@+id/tvNamaLokasi"
@@ -63,7 +63,7 @@
                     android:backgroundTint="@color/white"
                     android:padding="10dp"
                     android:src="@drawable/ic_baseline_close_24"
-                    android:tint="@android:color/holo_blue_light" />
+                    app:tint="@android:color/holo_blue_light" />
 
             </RelativeLayout>
 
@@ -94,6 +94,6 @@
         android:layout_marginTop="-22dp"
         android:rotation="90"
         android:src="@drawable/bg_triangle"
-        android:tint="@color/white" />
+        app:tint="@color/white" />
 
 </RelativeLayout>
